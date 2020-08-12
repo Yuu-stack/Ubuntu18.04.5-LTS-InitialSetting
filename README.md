@@ -1,5 +1,8 @@
 # Ubuntu18.04.5-LTS-InitialSetting
 
+vim 等の設定は RasPi-InitialSetting を参考にしてください.  
+https://github.com/Yuu-stack/RasPi-InitialSetting/blob/master/README.md  
+
 Ubuntuでの固定IP化  
 
 `sudo vim /etc/netplan/99_config.yaml`  
