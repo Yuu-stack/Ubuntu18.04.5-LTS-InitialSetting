@@ -19,7 +19,7 @@
     sudo apt autoremove -y && \
     dpkg -l | grep vim 
     
-    <s>sudo apt --purge remove -y vim-common vim-tiny </s>
+<s>sudo apt --purge remove -y vim-common vim-tiny </s>
     
     sudo apt install vim-gtk -y && sudo cp /etc/vim/vimrc /etc/vim/vimrc.bak && \
     wget -O .vimrc https://gist.github.com/Yuu-stack/afc3644c76d10dc39bd4c0ad48a0bc86/raw/6ca7b465dae295db9789a4bdd6806a1629610d11/.vimrc && \
