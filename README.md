@@ -10,15 +10,17 @@
 <s>https://github.com/Yuu-stack/RasPi-InitialSetting/blob/master/README.md </s>  
 
 
-# 01.🍓初期設定  vim設定+IP固定
+# 01.🍓初期設定  vim設定
 
     sudo timedatectl set-timezone Asia/Tokyo && \
     sudo localedef -f UTF-8 -i en_US en_US && sudo localedef -f UTF-8 -i ja_JP ja_JP && \
     sudo localectl set-locale LANG=en_US.utf8 && \
     sudo apt update && sudo apt upgrade -y && \
     sudo apt autoremove -y && \
-    dpkg -l | grep vim && \
-    sudo apt --purge remove -y vim-common vim-tiny && \
+    dpkg -l | grep vim 
+    
+    <s>sudo apt --purge remove -y vim-common vim-tiny </s>
+    
     sudo apt install vim-gtk -y && sudo cp /etc/vim/vimrc /etc/vim/vimrc.bak && \
     wget -O .vimrc https://gist.github.com/Yuu-stack/afc3644c76d10dc39bd4c0ad48a0bc86/raw/6ca7b465dae295db9789a4bdd6806a1629610d11/.vimrc && \
     sudo cp ~/.vimrc /etc/vim/vimrc
