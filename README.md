@@ -6,8 +6,8 @@
 > 02.IP固定 
 
 
-<s>vim 等の設定は RasPi-InitialSetting を参考にしてください.<s>  
-<s>https://github.com/Yuu-stack/RasPi-InitialSetting/blob/master/README.md<s>  
+<s>vim 等の設定は RasPi-InitialSetting を参考にしてください. </s>  
+<s>https://github.com/Yuu-stack/RasPi-InitialSetting/blob/master/README.md </s>  
 
 
 # 01.🍓初期設定  vim設定+IP固定
